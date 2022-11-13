@@ -1,6 +1,6 @@
 const a = getParam("v");
 // youtubeの動画idを取得
-if(a=""){
+if(!a){
   alert("なんかおかしいんちゃうかぁ？");
 }
 else{
