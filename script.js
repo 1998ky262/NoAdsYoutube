@@ -5,7 +5,7 @@ if(a=""){
 }
 else{
 const b=document.getElementByID("video");
-b.innerHTML="しね";
+b.innerHTML="<iframe width="853" height="480" src="https://www.youtube.com/embed/"+a+"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>";
 }
 function getParam(name, url) {
   if (!url) url = window.location.href;
