@@ -1,7 +1,12 @@
 const a = getParam("v");
 // youtubeの動画idを取得
+if(a=""){
+  alert("なんかおかしいんちゃうかぁ？");
+}
+else{
 const b=document.getElementByID("video");
 b.innerHTML="しね";
+}
 function getParam(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, "\\$&");
