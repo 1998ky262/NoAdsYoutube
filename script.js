@@ -1,6 +1,7 @@
 const a = getParam("v");
 // youtubeの動画idを取得
-location.href="https://1998ky262.github.io/NoAdsYoutube/?v="+a;
+const b=document.getElementByID("video");
+b.innerHTML="しね";
 function getParam(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, "\\$&");
